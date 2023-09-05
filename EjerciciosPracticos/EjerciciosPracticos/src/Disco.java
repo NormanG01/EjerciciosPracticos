@@ -1,4 +1,3 @@
-//Ejercicio n°1
 import java.util.Scanner;
 
 public class Disco {
@@ -8,9 +7,8 @@ public class Disco {
         int edad = scanner.nextInt();
         System.out.println("Ingrese su género (M/F): ");
         String genero = scanner.next();
-
         if (edad < 18) {
-            System.out.println("Lo siento, no puedes entrar a la disco por playo .");
+            System.out.println("Lo siento, no puedes entrar a la disco por playo.");
         } else if (genero.equals("F")) {
             System.out.println("Puedes entrar a la disco.");
             if (edad >= 20) {
